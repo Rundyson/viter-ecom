@@ -41,7 +41,7 @@
 }
 @layer components{
   .container {
-    @apply max-w-[1800px] mx-auto px-1;
+    @apply max-w-[1200px] w-full mx-auto;
   }
   .right-footer p{
     @apply text-gray-600 leading-7;
