@@ -1,17 +1,24 @@
 import React from 'react'
-import { imgPath } from '../helpers/functions-general'
 import { Link } from 'react-router-dom'
 
-const Variation = ({item, key}) => {
+const Variation = ({ item, key }) => {
   return (
-    <section className="py-10">
-            <div className="relative" key={key}>
-                <img className="rounded-3xl h-[20rem] w-[480px] md:w-full md:h-[30rem]" src={`${imgPath}/${item.VariationImg}`} alt="" />
-                <div className="absolute bottom-10 left-5 flex flex-col gap-2 text-white">
-                    <h2 className="font-semibold">{item.VariationTitle}</h2>
-                    <Link to="/seedetails"><button className="bg-white text-black px-5 py-1 rounded-3xl text-sm hover:text-white hover:bg-black">{item.VariationButton}</button></Link>
-                </div>
-            </div>
+    <section key={key} className="py-10 flex justify-center">
+      <div className="relative">
+        <img
+          src={item.VariationImg}
+          alt={item.VariationTitle}
+          className="rounded-3xl w-full max-w-[480px] md:max-w-full max-h-[30rem] object-cover mx-auto"
+        />
+        <div className="absolute bottom-5 left-5 flex flex-col gap-2 text-white">
+          <h2 className="font-semibold">{item.VariationTitle}</h2>
+          <Link to="/seedetails">
+            <button className="bg-white text-black px-5 py-2 rounded-full text-sm hover:text-white hover:bg-black">
+              {item.VariationButton}
+            </button>
+          </Link>
+        </div>
+      </div>
     </section>
   )
 }
