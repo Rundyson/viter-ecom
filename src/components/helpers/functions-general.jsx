@@ -1,1 +1,1 @@
-export const imgPath = "http://localhost/viter-ecom/public/img";
+export const imgPath = "/viter-ecom/public/img";
