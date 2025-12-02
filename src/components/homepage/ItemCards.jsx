@@ -17,19 +17,19 @@ const ItemCards = () => {
             price: "90",
         },
         {
-            img: "card-3.jpg",
+            img: "card-5.jpg",
             title: "Bidha Glasses",
             info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.", 
             price: "50",
         },
         {
-            img: "card-4.jpg",
+            img: "card-3.jpg",
             title: "Brown Bomber",
             info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.", 
             price: "52",
         },
         {
-            img: "card-5.jpg",
+            img: "card-4.jpg",
             title: "Leather Shoes Jack",
             info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.", 
             price: "89",
