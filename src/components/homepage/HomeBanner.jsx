@@ -9,7 +9,7 @@ const HomeBanner = ({ img, header, subheader }) => {
         <img
           src={`${imgPath}/${img}`}
           alt=""
-          className="rounded-3xl w-full  max-h-[500px] object-cover mx-auto"
+          className="w-full  max-h-[500px] object-cover mx-auto"
         />
         <div className="banner-details absolute bottom-5 left-5 lg:left-20 text-white w-full md:w-[80%]">
           <h1 className="font-semibold mb-2 md:mb-5 text-xl md:text-4xl">{header}</h1>
