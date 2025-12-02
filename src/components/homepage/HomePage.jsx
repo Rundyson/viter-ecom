@@ -10,9 +10,9 @@ const HomePage = () => {
   return (
     <>
       <Header/>
-      <HomeBanner img="/img/banner-1.jpg" header="TOLUS SPRING COLLECTION" subheader="Find out our best spring collection. Offering our best quality product in a Tolus Spring Collection."/>
+      <HomeBanner img="banner-1.jpg" header="TOLUS SPRING COLLECTION" subheader="Find out our best spring collection. Offering our best quality product in a Tolus Spring Collection."/>
       <ItemCards/>
-      <WearToWedding img="/img/banner-2.jpg" header="WEAR TO WEDDING" subheader="A symphony of exquisite designs tailored for your unforgettable moments" button="See Details"/>
+      <WearToWedding img="banner-2.jpg" header="WEAR TO WEDDING" subheader="A symphony of exquisite designs tailored for your unforgettable moments" button="See Details"/>
       <VariationCard/>
       <Footer/>
     </>
